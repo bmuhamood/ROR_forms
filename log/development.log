@@ -2291,3 +2291,395 @@ puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
 puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:33:02 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:33:13 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.6ms | Allocations: 3833)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 4127)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.8ms | Allocations: 9539)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    20:   <%= f.submit %>
+    21:   <br>
+    22:   <br>
+    23:   <%= link_to "edit", edit_user_path(@user) %>
+    24: <% end %> 
+  
+app/views/users/_form.html.erb:23
+app/views/users/_form.html.erb:3
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:34:10 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.5ms | Allocations: 2203)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2494)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 3666)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    20:   <%= f.submit %>
+    21:   <br>
+    22:   <br>
+    23:   <%= button_to "edit", edit_user_path(@user) %>
+    24: <% end %> 
+  
+app/views/users/_form.html.erb:23
+app/views/users/_form.html.erb:3
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:34:43 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.0ms | Allocations: 1332)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1623)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2796)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Create An Account</h1>
+
+<%= form_for @user do |f| %>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <%= f.label :username %>
+  <br>
+  <%= f.text_field :username, placeholder: 'Your name' %>
+  <br>
+  <br>
+  <%= f.label :email %>
+  <br>
+  <%= f.email_field :email, placeholder: 'Your email'%>
+  <br>
+  <br>
+  <%= f.label :password %>
+  <br>
+  <%= f.password_field :password %>
+  <br>
+  <br>
+  <%= f.submit %>
+  <br>
+  <br>
+  <!--<%= #button_to "edit", edit_user_path(@user) %>-->
+<% end %> 
+
+):
+1:    <h1>Create An Account</h1>
+2:    
+3:    <%= form_for @user do |f| %>
+4:      <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+5:      <%= f.label :username %>
+6:      <br>
+7:      <%= f.text_field :username, placeholder: 'Your name' %>
+8:      <br>
+9:      <br>
+10:      <%= f.label :email %>
+11:      <br>
+12:      <%= f.email_field :email, placeholder: 'Your email'%>
+13:      <br>
+14:      <br>
+15:      <%= f.label :password %>
+16:      <br>
+17:      <%= f.password_field :password %>
+18:      <br>
+19:      <br>
+20:      <%= f.submit %>
+21:      <br>
+22:      <br>
+23:      <!--<%= #button_to "edit", edit_user_path(@user) %>-->
+24:    <% end %> 
+  
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:34:57 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.0ms | Allocations: 1169)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1457)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 7574)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:35:22 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.0ms | Allocations: 1151)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1439)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 5687)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:35:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:36:06 -0500
+  
+ArgumentError (can't use new outside resource(s) scope):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:36:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:38:11 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 98.0ms | Allocations: 64369)
+  Rendered users/edit.html.erb within layouts/application (Duration: 98.5ms | Allocations: 64660)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 1.6ms | Allocations: 70223)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00007f583893b268>:0x00007f5838939238>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:38:51 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 113.8ms | Allocations: 64339)
+  Rendered users/edit.html.erb within layouts/application (Duration: 114.3ms | Allocations: 64414)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.2ms | Allocations: 65372)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00007f583893b268>:0x000055aa6ae3b5b0>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:40:12 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 80.1ms | Allocations: 63309)
+  Rendered users/edit.html.erb within layouts/application (Duration: 81.4ms | Allocations: 63857)
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 0.5ms | Allocations: 70763)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00005611f4aeca48>:0x00007f02e8a8e9f8>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:41:02 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.6ms | Allocations: 1284)
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1703)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3442)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @users do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:42:13 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 133.3ms | Allocations: 63017)
+  Rendered users/edit.html.erb within layouts/application (Duration: 134.9ms | Allocations: 63596)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.8ms | Allocations: 69369)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00005611f3bfcb28>:0x00005611f3bae9c8>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:47:40 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 10.3ms | Allocations: 2664)
+  Rendered users/edit.html.erb within layouts/application (Duration: 11.4ms | Allocations: 2739)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 19.4ms | ActiveRecord: 0.9ms | Allocations: 12782)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:48:16 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.9ms | Allocations: 947)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1020)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 4865)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:48:41 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 1187)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6354)
+
+
