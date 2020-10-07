@@ -1,9 +1,8 @@
-# Forms-RoR
+## Ruby On Rails Project: Forms
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## RoR Project: Forms
-
-# features
+# Features
 =======
 Building forms using nearly-pure HTML and then graduating to using the helper methods that Rails provides. 
 development
@@ -13,10 +12,11 @@ development
 - Ruby
 - Ruby on Rails
 - Rubocop
+- HTML
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+To get a local copy up and running follow these simple steps:
 
 - Clone the project from [here](https://github.com/bmuhamood/ROR_forms.git)
 
@@ -33,8 +33,6 @@ Navigate to the root folder.
 Run:
 - `rails db:migrate`
 - `rails console`
-
-### Pre-requisite
 
 #### Ruby:
 
