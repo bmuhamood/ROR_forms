@@ -23,7 +23,7 @@ class UsersController < ApplicationController
     if @user.save
       redirect_to edit_user_path
     else
-      render :new
+      render :edit
     end
   end
 
