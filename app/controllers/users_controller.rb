@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
-    def update
+  def update
     @user = User.new(user_params)
     @user.save
     if @user.save
