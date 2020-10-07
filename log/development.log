@@ -2846,3 +2846,49 @@ Processing by UsersController#edit as HTML
 Completed 200 OK in 235ms (Views: 191.5ms | ActiveRecord: 21.2ms | Allocations: 6291)
 
 
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-07 23:45:13 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (7.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 14.4ms | Allocations: 1240)
+  Rendered users/edit.html.erb within layouts/application (Duration: 25.2ms | Allocations: 1656)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 145ms (Views: 94.2ms | ActiveRecord: 7.5ms | Allocations: 10633)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2020-10-07 23:45:22 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.9ms | Allocations: 947)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1021)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 5471)
+
+
+Started GET "/users/3/edit" for 127.0.0.1 at 2020-10-07 23:45:28 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 940)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1014)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.3ms | Allocations: 5478)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 23:45:33 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 909)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1542)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 5603)
+
+
