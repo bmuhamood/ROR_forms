@@ -4,7 +4,6 @@ class UsersController < ApplicationController
   end
 
   def create
-    # @user = User.new(name="User[username]", name ="User[email]", name ="User[password]")
     @user = User.new(user_params)
     @user.save
     if @user.save
@@ -16,6 +15,16 @@ class UsersController < ApplicationController
 
   def edit
     @user = User.find(params[:id])
+  end
+
+    def update
+    @user = User.new(user_params)
+    @user.save
+    if @user.save
+      redirect_to edit_user_path
+    else
+      render :new
+    end
   end
 
   private
