@@ -2892,3 +2892,13 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 5603)
 
 
+Started GET "/users/new" for 127.0.0.1 at 2020-10-08 00:02:59 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 34.3ms | Allocations: 1205)
+  Rendered users/new.html.erb within layouts/application (Duration: 60.3ms | Allocations: 1960)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 900ms (Views: 847.0ms | ActiveRecord: 0.0ms | Allocations: 10246)
+
+
