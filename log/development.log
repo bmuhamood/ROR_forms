@@ -1,0 +1,2904 @@
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from block in execute at /usr/share/rubygems-integration/all/gems/rake-13.0.1/lib/rake/task.rb:281)
+Started GET "/" for 127.0.0.1 at 2020-10-05 17:11:01 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-05 17:11:31 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/rails/actions" for 127.0.0.1 at 2020-10-05 17:11:34 -0500
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20201005215731)
+  
+StandardError (An error has occurred, this and all later migrations canceled:
+
+undefined method `username' for #<ActiveRecord::ConnectionAdapters::SQLite3::TableDefinition:0x00007f5738f4f038>):
+  
+db/migrate/20201005215731_create_users.rb:4:in `block in change'
+activerecord (6.0.3.3) lib/active_record/connection_adapters/abstract/schema_statements.rb:309:in `create_table'
+activerecord (6.0.3.3) lib/active_record/migration.rb:890:in `block in method_missing'
+activerecord (6.0.3.3) lib/active_record/migration.rb:858:in `block in say_with_time'
+/usr/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
+activerecord (6.0.3.3) lib/active_record/migration.rb:858:in `say_with_time'
+activerecord (6.0.3.3) lib/active_record/migration.rb:879:in `method_missing'
+db/migrate/20201005215731_create_users.rb:3:in `change'
+activerecord (6.0.3.3) lib/active_record/migration.rb:828:in `exec_migration'
+activerecord (6.0.3.3) lib/active_record/migration.rb:812:in `block (2 levels) in migrate'
+/usr/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
+activerecord (6.0.3.3) lib/active_record/migration.rb:811:in `block in migrate'
+activerecord (6.0.3.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:471:in `with_connection'
+activerecord (6.0.3.3) lib/active_record/migration.rb:810:in `migrate'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1002:in `migrate'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1310:in `block in execute_migration_in_transaction'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1361:in `block in ddl_transaction'
+activerecord (6.0.3.3) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `block in transaction'
+activerecord (6.0.3.3) lib/active_record/connection_adapters/abstract/transaction.rb:280:in `block in within_new_transaction'
+activesupport (6.0.3.3) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.3.3) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.3.3) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.3.3) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.3.3) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.3.3) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.3.3) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `transaction'
+activerecord (6.0.3.3) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1309:in `execute_migration_in_transaction'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1281:in `block in migrate_without_lock'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1280:in `each'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1280:in `migrate_without_lock'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1231:in `migrate'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.3.3) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.3.3) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.3.3) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.3.3) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:19:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20201005215731)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20201005215731)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "email" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201005215731"]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-10-05 22:15:50.820351"], ["updated_at", "2020-10-05 22:15:50.820351"]]
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/rails/actions" for 127.0.0.1 at 2020-10-05 17:16:01 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+Started GET "/users/new" for 127.0.0.1 at 2020-10-05 17:16:02 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-05 17:16:28 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 70)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/oem/Desktop/Microverse/rails/ROR_forms/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 2049ms
+Built at: 10/05/2020 5:16:33 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4441ms (Views: 4439.5ms | ActiveRecord: 0.0ms | Allocations: 18212)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-05 17:17:11 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 4291)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-05 17:17:50 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 183)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 932)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-06 02:46:44 +0400
+Started GET "/" for 127.0.0.1 at 2020-10-06 02:46:44 +0400
+  [1m[35m (14.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (23.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 44.0ms | Allocations: 467)
+Completed 200 OK in 235ms (Views: 134.9ms | ActiveRecord: 0.0ms | Allocations: 2897)
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 81.5ms | Allocations: 526)
+Completed 200 OK in 246ms (Views: 153.4ms | ActiveRecord: 0.0ms | Allocations: 2722)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2020-10-06 02:46:52 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/user/new"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:46:58 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 1160)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms | Allocations: 2375)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for(@user) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:47:21 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1147)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2302)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for(@users) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:48:00 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1143)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2294)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for(@users) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @users.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:52:26 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1145)
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 0.0ms | Allocations: 2295)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for(@Users) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @users.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:52:34 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1146)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2296)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for(@users) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @users.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:53:16 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 254.5ms | Allocations: 8352)
+Completed 500 Internal Server Error in 285ms (ActiveRecord: 1.0ms | Allocations: 9502)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    3: <%= form_for User.new do |f| %>
+    4: 
+    5: <ul>
+    6: <% @users.errors.full_messages.each do |error| %>
+    7: 	<li> <%= error %></li>
+    8: <% end %>
+    9: </ul>
+  
+app/views/users/new.html.erb:6
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:53:25 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1741)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2891)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    3: <%= form_for User.new do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+    7: 	<li> <%= error %></li>
+    8: <% end %>
+    9: </ul>
+  
+app/views/users/new.html.erb:6
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:53:41 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 4127)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 5277)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for #<Class:0x00007feb836e0b10>):
+    3: <%= form_for User.new do |f| %>
+    4: 
+    5: <ul>
+    6: <% User.errors.full_messages.each do |error| %>
+    7: 	<li> <%= error %></li>
+    8: <% end %>
+    9: </ul>
+  
+app/views/users/new.html.erb:6
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:54:14 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 4129)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5279)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for #<Class:0x00007feb836e0b10>):
+    3: <%= form_for User.new do |f| %>
+    4: 
+    5: <ul>
+    6: <% User.errors.full_messages.each do |error| %>
+    7: 	<li> <%= error %></li>
+    8: <% end %>
+    9: </ul>
+  
+app/views/users/new.html.erb:6
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 02:57:01 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 21.7ms | Allocations: 1143)
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 0.0ms | Allocations: 2293)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for (@user) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:02:54 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 16.7ms | Allocations: 1143)
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 0.0ms | Allocations: 2293)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for (@user) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:04:58 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (13.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 26.2ms | Allocations: 4713)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 14.3ms | Allocations: 5789)
+
+
+  
+ActionView::Template::Error (undefined method `to_key' for #<ActiveRecord::Relation []>
+Did you mean?  to_set
+               to_ary):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for (@user) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:05:37 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 4412)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.2ms | Allocations: 5577)
+
+
+  
+ActionView::Template::Error (undefined method `to_key' for #<ActiveRecord::Relation []>
+Did you mean?  to_set
+               to_ary):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (9.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "bmuhamood"], ["email", "bbosa2009@test.com"], ["password", "12345"], ["created_at", "2020-10-05 23:09:34.629358"], ["updated_at", "2020-10-05 23:09:34.629358"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:09:52 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 18.1ms | Allocations: 7700)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.9ms | Allocations: 8756)
+
+
+  
+ActionView::Template::Error (undefined method `to_key' for #<User::ActiveRecord_Relation:0x00007feb82365b30>
+Did you mean?  to_set
+               to_ary):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:10:42 +0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 79.4ms | Allocations: 8681)
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 3.7ms | Allocations: 11055)
+
+
+  
+ActionView::Template::Error (undefined method `to_key' for #<User::ActiveRecord_Relation:0x00007f9c65489e10>
+Did you mean?  to_set
+               to_ary):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:11:09 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 10.2ms | Allocations: 4533)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.5ms | Allocations: 5735)
+
+
+  
+ActionView::Template::Error (undefined method `to_key' for #<User::ActiveRecord_Relation:0x00007f9c64d16980>
+Did you mean?  to_set
+               to_ary):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for (@user) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:12:16 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 182.9ms | Allocations: 69502)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.4ms | Allocations: 70676)
+
+
+  
+ActionView::Template::Error (undefined method `form' for #<#<Class:0x00007f9c6814a4b8>:0x00007f9c65331680>
+Did you mean?  for
+               fork):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form (@user) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:13:31 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 4497)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.3ms | Allocations: 5661)
+
+
+  
+ActionView::Template::Error (undefined method `to_key' for #<User::ActiveRecord_Relation:0x00007f9c654ea968>
+Did you mean?  to_set
+               to_ary):
+    1: <h1>Create New Account</h1>
+    2: 
+    3: <%= form_for (@user) do |f| %>
+    4: 
+    5: <ul>
+    6: <% @user.errors.full_messages.each do |error| %>
+  
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:14:16 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered users/new.html.erb within layouts/application (Duration: 15.2ms | Allocations: 4453)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.2ms | Allocations: 5617)
+
+
+  
+ActionView::Template::Error (undefined method `to_key' for #<User::ActiveRecord_Relation:0x00007f9c6547e010>
+Did you mean?  to_set
+               to_ary):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.label :username %>
+    3:   <br>
+    4:   <%= f.text_field :username, placeholder: 'Your name' %>
+  
+app/views/users/new.html.erb:1
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:15:10 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 411.8ms | Allocations: 4487)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1107ms (Views: 1066.6ms | ActiveRecord: 1.7ms | Allocations: 25368)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:15:36 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1121)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 116ms (Views: 114.6ms | ActiveRecord: 0.0ms | Allocations: 5955)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 03:27:21 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Z0eay37tCuWvqGUoWopCw/u7JEVHl7rb+9GpORJlBzKrJG2bGeju8G3014rip/9fmuAvcjnTz5x3vRellBwrYA==", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+No template found for UsersController#create, rendering head :no_content
+Completed 204 No Content in 43ms (ActiveRecord: 0.0ms | Allocations: 1729)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:27:39 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 890)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 118ms (Views: 117.6ms | ActiveRecord: 0.0ms | Allocations: 4817)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 03:27:58 +0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Nerj1+WukN9frf7S+9V7Svl3DSPmwZ+Y8e9Dlmq0fx/5iRSHgqt0yp3xTHBD+MbWmCwGFJiF6t99g/0K7M1TTQ==", "user"=>{"username"=>"Hussein2019", "email"=>"bbosa2009@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+No template found for UsersController#create, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 443)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:28:19 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 883)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 4804)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 03:28:46 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1121)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 5945)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 11:13:15 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 4588)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 20.3ms | ActiveRecord: 1.0ms | Allocations: 15513)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 11:13:37 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"B1r8OfaeFT1jX9o2S1zzBvAlYdYQRbXG8P8DxeTTAaWGCI1HXcOCtmJIZOZi6KgmawTON/sAd3VVN36/KAn1mw==", "user"=>{"username"=>"Balerum03", "email"=>"adafer123.angra@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+No template found for UsersController#create, rendering head :no_content
+Completed 204 No Content in 5ms (ActiveRecord: 0.0ms | Allocations: 1641)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 11:17:25 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1157)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 5397)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 11:17:55 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"aAWfvG1PXCBELu6NEjPwmTVGmBZYBSC7gHcUL+83omfpV+7CxhLLq0U5UF07h6u5rmc397NA4gglv2lVI+1WWQ==", "user"=>{"username"=>"adan", "email"=>"adanfernandez@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+No template found for UsersController#create, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 1599)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 11:24:11 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1210)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 8880)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 11:24:21 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"6X3hCh9Tjy9DbnvqxeFtmp7dMxAM00lFh2g5rpxk8rNoL5B0tA4YpEJ5xTrsVTa6Bfyc8eeWi/YioETUUL4GjQ==", "user"=>{"username"=>"adan", "email"=>"adanfernandez@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 929)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5783)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 11:56:22 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"FObmQgNCfRzliMgh2rAHY4NOiaQ4+wyFrEO15KdKEcOVtJc8qB/ql+SfdvHzBFxDGG8mRdO+zjYJi8iea5Dl/Q==", "user"=>{"username"=>"Bbosa", "email"=>"hello@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 912)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 5542)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-10-06 11:56:56 -0500
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 11:57:03 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 4308)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:02:42 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 970)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 7966)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:03:56 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 966)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 12.1ms | ActiveRecord: 0.4ms | Allocations: 8213)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:04:11 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"/am50P3HjnnulVhD+PQJ9WpBJqR9tTvoVh85r/msuZZ8+8iuVpoZ8u+C5pPRQFLV8WCJRZbw+Vvz10TVNXZNqA==", "user"=>{"username"=>"adan", "email"=>"fernandez@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 615)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0..1)):
+  
+app/controllers/users_controller.rb:8:in `create'
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:06:25 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"/am50P3HjnnulVhD+PQJ9WpBJqR9tTvoVh85r/msuZZ8+8iuVpoZ8u+C5pPRQFLV8WCJRZbw+Vvz10TVNXZNqA==", "user"=>{"username"=>"adan", "email"=>"fernandez@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1077)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/users_controller.rb:10:in `create'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:10:22 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 966)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 18.4ms | ActiveRecord: 0.5ms | Allocations: 8262)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:10:34 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"QhvTBpuKZedSPK/iqVQV5mZPyT+4wDuVXnOCH+drwU/DSaJ4MNfybFMrETKA4E7G/W5m3lOF+Sb7u/9lK7E1cQ==", "user"=>{"username"=>"adan", "email"=>"adanf@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1108)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/users_controller.rb:10:in `create'
+Started GET "/users/ne" for 127.0.0.1 at 2020-10-06 12:17:13 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:17:15 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 902)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 4238)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:17:26 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"OgE308Z8ol/cziX1CLTTS/IZawzmsabOVCpwaBdCZWG7U0atbSE11N3ZmyUhAIhraTjE7Q30ZH3x4g0S25iRXw==", "user"=>{"username"=>"ada", "email"=>"ada@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1113)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/users_controller.rb:10:in `create'
+Started GET "/usersnew" for 127.0.0.1 at 2020-10-06 12:18:05 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/usersnew"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:18:09 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 966)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 11.2ms | ActiveRecord: 0.5ms | Allocations: 8310)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:18:23 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"sxEFwY6K8HcYGnGBA2tcJy4yRkweRCYLT6z5pUmm/qYyQ3S/Jddn/BkNz1Eq3wcHtRPprfUB5LjqZITfhXwKmA==", "user"=>{"username"=>"adanf", "email"=>"adanfe@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1130)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:10:in `create'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:22:11 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 966)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 14.7ms | ActiveRecord: 1.0ms | Allocations: 8271)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:22:23 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"JknM8g3qS2cbWhZJ8E/Ju6QU3ZxYhZWdPw9OTahh8gSnG72Mprfc7BpNqJnZ+5KbPzVyfbPAVy6axzM3ZLsGOg==", "user"=>{"username"=>"hello", "email"=>"hello@test.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "hello"], ["email", "hello@test.com"], ["password", "hellothere"], ["created_at", "2020-10-06 17:22:23.421223"], ["updated_at", "2020-10-06 17:22:23.421223"]]
+  ↳ app/controllers/users_controller.rb:10:in `create'
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10:in `create'
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 10ms (ActiveRecord: 5.5ms | Allocations: 3886)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:22:23 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 902)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4231)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:23:12 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 966)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 7.5ms | ActiveRecord: 0.8ms | Allocations: 8219)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:23:29 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"8v1eY0AXF5W7xdiIKYs3sahwHrZP8rllpztUwvIoanJzry8d60qAHrrSZlgAP2yRM1GxV6S3e9YC8ym4PvKeTA==", "user"=>{"username"=>"adan bonilla", "email"=>"adanbonilla@test.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "adan bonilla"], ["email", "adanbonilla@test.com"], ["password", "hellothere"], ["created_at", "2020-10-06 17:23:29.005753"], ["updated_at", "2020-10-06 17:23:29.005753"]]
+  ↳ app/controllers/users_controller.rb:10:in `create'
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10:in `create'
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 19ms (ActiveRecord: 6.6ms | Allocations: 3890)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:23:29 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 902)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4231)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:24:09 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3010)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 10.4ms | ActiveRecord: 0.7ms | Allocations: 14033)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:24:31 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"9pxtNPp3PxnNqyaR4eSmNR0A1rFODprt7c8XRYILc7N3zhxKUSqoksy8mEHIUP0VhiF5UKVLWF5IB2o/TtGHjQ==", "user"=>{"username"=>"adanbonilla", "email"=>"adanbonilla1@test.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 925)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 5957)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-10-06 12:24:46 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"DSaHSZS2FtdzPFtM6OcVEmrD7w6ggn3SLvI2zj2L7OWMdPY3P+uBXHIr5ZzBU04y8eJA70vHv2GLOku08VEY2w==", "user"=>{"username"=>"adanbonilla", "email"=>"adanbonilla1@test.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10:in `create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "adanbonilla"], ["email", "adanbonilla1@test.com"], ["password", "adanfernandez"], ["created_at", "2020-10-06 17:24:46.120112"], ["updated_at", "2020-10-06 17:24:46.120112"]]
+  ↳ app/controllers/users_controller.rb:10:in `create'
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10:in `create'
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 18ms (ActiveRecord: 6.8ms | Allocations: 3969)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:24:46 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 903)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4236)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:43:44 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:2: syntax error, unexpected '<', expecting `end'
+  <%= form_tag("/create", method...
+  ^
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:3: syntax error, unexpected local variable or method, expecting `end'
+    <%= username_tag(:q, "username") %>
+        ^~~~~~~~~~~~
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:3: syntax error, unexpected '>'
+...username_tag(:q, "username") %>
+...                              ^
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:5: syntax error, unexpected local variable or method, expecting `end'
+    <%= email_tag(:q, "e-mail") %>
+        ^~~~~~~~~
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:5: syntax error, unexpected '>'
+... <%= email_tag(:q, "e-mail") %>
+...                              ^
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:7: syntax error, unexpected local variable or method, expecting `end'
+    <%= password_tag(:q) %>
+        ^~~~~~~~~~~~
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:7: syntax error, unexpected '>'
+    <%= password_tag(:q) %>
+                          ^
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:9: syntax error, unexpected local variable or method, expecting `end'
+    <%= submit_tag("Create") %>
+        ^~~~~~~~~~
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:9: syntax error, unexpected '>'
+    <%= submit_tag("Create") %>
+                              ^
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:11: unterminated string meets end of file
+/home/oem/Desktop/Microverse/rails/ROR_forms/app/helpers/users_helper.rb:11: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/helpers/users_helper.rb:2: syntax error, unexpected '<', expecting `end'
+app/helpers/users_helper.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:3: syntax error, unexpected '>'
+app/helpers/users_helper.rb:5: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:5: syntax error, unexpected '>'
+app/helpers/users_helper.rb:7: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:7: syntax error, unexpected '>'
+app/helpers/users_helper.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:9: syntax error, unexpected '>'
+app/helpers/users_helper.rb:11: unterminated string meets end of file
+app/helpers/users_helper.rb:11: syntax error, unexpected end-of-input, expecting `end'
+app/helpers/users_helper.rb:2: syntax error, unexpected '<', expecting `end'
+app/helpers/users_helper.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:3: syntax error, unexpected '>'
+app/helpers/users_helper.rb:5: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:5: syntax error, unexpected '>'
+app/helpers/users_helper.rb:7: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:7: syntax error, unexpected '>'
+app/helpers/users_helper.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:9: syntax error, unexpected '>'
+app/helpers/users_helper.rb:11: unterminated string meets end of file
+app/helpers/users_helper.rb:11: syntax error, unexpected end-of-input, expecting `end'
+app/helpers/users_helper.rb:2: syntax error, unexpected '<', expecting `end'
+app/helpers/users_helper.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:3: syntax error, unexpected '>'
+app/helpers/users_helper.rb:5: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:5: syntax error, unexpected '>'
+app/helpers/users_helper.rb:7: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:7: syntax error, unexpected '>'
+app/helpers/users_helper.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/helpers/users_helper.rb:9: syntax error, unexpected '>'
+app/helpers/users_helper.rb:11: unterminated string meets end of file
+app/helpers/users_helper.rb:11: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 12:44:58 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NameError (uninitialized constant UsersHelper):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 23:36:36 +0400
+  [1m[35m (5.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (16.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 196.8ms | Allocations: 3012)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 840ms (Views: 593.7ms | ActiveRecord: 1.7ms | Allocations: 14473)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 23:36:53 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 910)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.0ms | Allocations: 4838)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 23:37:09 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1153)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 5970)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 23:37:26 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1153)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 5977)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 23:37:44 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1154)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 5988)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:43:59 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:45:17 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms | Allocations: 2014)
+
+
+  
+ActionController::MissingExactTemplate (UsersController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.3) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:45:28 +0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:47:09 +0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:52:49 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 976)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 2205)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@user) %>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:54:58 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 974)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2197)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@user) %>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:56:30 +0400
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (17.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 96.9ms | Allocations: 1433)
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 0.0ms | Allocations: 3176)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@user) %>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:57:17 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 891)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1570)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@user) %>
+  
+app/views/users/show.html.erb:1
+Started GET "/edit" for 127.0.0.1 at 2020-10-06 23:57:29 +0400
+  
+ActionController::RoutingError (uninitialized constant EditController):
+  
+actionpack (6.0.3.3) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/Users/edit" for 127.0.0.1 at 2020-10-06 23:57:45 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/Users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:57:51 +0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 934)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1447)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@user) %>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:58:18 +0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 889)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1560)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@user) %>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:58:23 +0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 932)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1445)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@user) %>
+  
+app/views/users/show.html.erb:1
+Started POST "/__web_console/repl_sessions/f4ac192c92c1f2983864dece9f2e1a33/trace" for 127.0.0.1 at 2020-10-06 23:58:43 +0400
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:59:42 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 971)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2194)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@edit) %>
+  
+app/views/users/show.html.erb:1
+Started POST "/__web_console/repl_sessions/d20066f8a5f5c59ad604d8c103cf9683/trace" for 127.0.0.1 at 2020-10-06 23:59:52 +0400
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 23:59:56 +0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 932)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1446)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    1: <%= link_to "edit", edit_user_path(@edit) %>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:06:12 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...ew, :create, :edit, :update] 
+...                            ^~~
+/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:7: syntax error, unexpected `end', expecting end-of-input):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:7: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:7: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:7: syntax error, unexpected `end', expecting end-of-input
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:06:48 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...ew, :create, :edit, :update] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:08:41 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...only: [:new, :create, :edit] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:09:17 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...only: [:new, :create, :edit] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:09:36 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...only: [:new, :create, :edit] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:35:20 +0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-07 00:43:57 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 00:45:29 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:45:51 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 00:46:18 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...ew, :create, :edit, :update] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:12:37 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...only: [:new, :create, :edit] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:13:03 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:17:08 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/user/edit" for 127.0.0.1 at 2020-10-07 01:17:29 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/user/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/usersedit" for 127.0.0.1 at 2020-10-07 01:17:35 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/usersedit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:17:39 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:37:07 +0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:38:50 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:41:52 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...only: [:new, :create, :edit] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 01:42:08 +0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 01:43:41 +0400
+  
+SyntaxError (/Users/mac/Desktop/micr/ROR_forms/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...only: [:new, :create, :edit] 
+...                            ^~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 01:44:01 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:33:02 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:33:13 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.6ms | Allocations: 3833)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 4127)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.8ms | Allocations: 9539)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    20:   <%= f.submit %>
+    21:   <br>
+    22:   <br>
+    23:   <%= link_to "edit", edit_user_path(@user) %>
+    24: <% end %> 
+  
+app/views/users/_form.html.erb:23
+app/views/users/_form.html.erb:3
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:34:10 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.5ms | Allocations: 2203)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2494)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 3666)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil}, missing required keys: [:id]):
+    20:   <%= f.submit %>
+    21:   <br>
+    22:   <br>
+    23:   <%= button_to "edit", edit_user_path(@user) %>
+    24: <% end %> 
+  
+app/views/users/_form.html.erb:23
+app/views/users/_form.html.erb:3
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:34:43 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.0ms | Allocations: 1332)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1623)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2796)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Create An Account</h1>
+
+<%= form_for @user do |f| %>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <%= f.label :username %>
+  <br>
+  <%= f.text_field :username, placeholder: 'Your name' %>
+  <br>
+  <br>
+  <%= f.label :email %>
+  <br>
+  <%= f.email_field :email, placeholder: 'Your email'%>
+  <br>
+  <br>
+  <%= f.label :password %>
+  <br>
+  <%= f.password_field :password %>
+  <br>
+  <br>
+  <%= f.submit %>
+  <br>
+  <br>
+  <!--<%= #button_to "edit", edit_user_path(@user) %>-->
+<% end %> 
+
+):
+1:    <h1>Create An Account</h1>
+2:    
+3:    <%= form_for @user do |f| %>
+4:      <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+5:      <%= f.label :username %>
+6:      <br>
+7:      <%= f.text_field :username, placeholder: 'Your name' %>
+8:      <br>
+9:      <br>
+10:      <%= f.label :email %>
+11:      <br>
+12:      <%= f.email_field :email, placeholder: 'Your email'%>
+13:      <br>
+14:      <br>
+15:      <%= f.label :password %>
+16:      <br>
+17:      <%= f.password_field :password %>
+18:      <br>
+19:      <br>
+20:      <%= f.submit %>
+21:      <br>
+22:      <br>
+23:      <!--<%= #button_to "edit", edit_user_path(@user) %>-->
+24:    <% end %> 
+  
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/_form.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/users/_form.html.erb:27: unterminated string meets end of file
+app/views/users/_form.html.erb:27: syntax error, unexpected end-of-input, expecting ')'
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:34:57 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.0ms | Allocations: 1169)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1457)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 7574)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-06 17:35:22 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.0ms | Allocations: 1151)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1439)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 5687)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:35:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:36:06 -0500
+  
+ArgumentError (can't use new outside resource(s) scope):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-06 17:36:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/edit"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:38:11 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 98.0ms | Allocations: 64369)
+  Rendered users/edit.html.erb within layouts/application (Duration: 98.5ms | Allocations: 64660)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 1.6ms | Allocations: 70223)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00007f583893b268>:0x00007f5838939238>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:38:51 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 113.8ms | Allocations: 64339)
+  Rendered users/edit.html.erb within layouts/application (Duration: 114.3ms | Allocations: 64414)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.2ms | Allocations: 65372)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00007f583893b268>:0x000055aa6ae3b5b0>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:40:12 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 80.1ms | Allocations: 63309)
+  Rendered users/edit.html.erb within layouts/application (Duration: 81.4ms | Allocations: 63857)
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 0.5ms | Allocations: 70763)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00005611f4aeca48>:0x00007f02e8a8e9f8>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:41:02 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.6ms | Allocations: 1284)
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1703)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3442)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @users do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:42:13 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 133.3ms | Allocations: 63017)
+  Rendered users/edit.html.erb within layouts/application (Duration: 134.9ms | Allocations: 63596)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.8ms | Allocations: 69369)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00005611f3bfcb28>:0x00005611f3bae9c8>
+Did you mean?  users_path):
+    1: <%= form_for @user do |f| %>
+    2:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    3:   <%= f.label :username %>
+    4:   <br>
+  
+app/views/users/_form.html.erb:1
+app/views/users/edit.html.erb:18
+Started GET "/users/4/edit" for 127.0.0.1 at 2020-10-06 17:47:40 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 10.3ms | Allocations: 2664)
+  Rendered users/edit.html.erb within layouts/application (Duration: 11.4ms | Allocations: 2739)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 19.4ms | ActiveRecord: 0.9ms | Allocations: 12782)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:48:16 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.9ms | Allocations: 947)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1020)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 4865)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-06 17:48:41 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 1187)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6354)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2020-10-07 02:59:01 +0400
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (27.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-07 02:59:52 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (20.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 138.1ms | Allocations: 2934)
+  Rendered users/edit.html.erb within layouts/application (Duration: 148.0ms | Allocations: 3362)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 483ms (Views: 303.6ms | ActiveRecord: 21.4ms | Allocations: 17747)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 03:00:14 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 933)
+  Rendered users/new.html.erb within layouts/application (Duration: 28.5ms | Allocations: 1086)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.0ms | Allocations: 5152)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-07 03:00:31 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 941)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1015)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 5484)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2020-10-07 03:02:34 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | Allocations: 940)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1013)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 0.2ms | Allocations: 5433)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-07 03:02:39 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.8ms | Allocations: 940)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1014)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 5467)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-07 19:08:20 +0400
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (6.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (73.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 159.5ms | Allocations: 2932)
+  Rendered users/edit.html.erb within layouts/application (Duration: 322.0ms | Allocations: 3476)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1326ms (Views: 1019.2ms | ActiveRecord: 74.5ms | Allocations: 15913)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 19:08:35 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.4ms | Allocations: 933)
+  Rendered users/new.html.erb within layouts/application (Duration: 30.4ms | Allocations: 1087)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 183ms (Views: 181.9ms | ActiveRecord: 0.0ms | Allocations: 5157)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 23:28:16 +0400
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (11.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 163.6ms | Allocations: 2901)
+  Rendered users/new.html.erb within layouts/application (Duration: 183.7ms | Allocations: 3308)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 540ms (Views: 363.7ms | ActiveRecord: 2.4ms | Allocations: 14794)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-07 23:28:26 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (21.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.0ms | Allocations: 972)
+  Rendered users/edit.html.erb within layouts/application (Duration: 36.6ms | Allocations: 1259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 235ms (Views: 191.5ms | ActiveRecord: 21.2ms | Allocations: 6291)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-10-07 23:45:13 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (7.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 14.4ms | Allocations: 1240)
+  Rendered users/edit.html.erb within layouts/application (Duration: 25.2ms | Allocations: 1656)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 145ms (Views: 94.2ms | ActiveRecord: 7.5ms | Allocations: 10633)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2020-10-07 23:45:22 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.9ms | Allocations: 947)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1021)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 5471)
+
+
+Started GET "/users/3/edit" for 127.0.0.1 at 2020-10-07 23:45:28 +0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17:in `edit'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 940)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1014)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.3ms | Allocations: 5478)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-07 23:45:33 +0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 909)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1542)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 5603)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-10-08 00:02:59 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 34.3ms | Allocations: 1205)
+  Rendered users/new.html.erb within layouts/application (Duration: 60.3ms | Allocations: 1960)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 900ms (Views: 847.0ms | ActiveRecord: 0.0ms | Allocations: 10246)
+
+
